@@ -1,0 +1,53 @@
+
+body, html{
+    height: 100%;
+}
+
+/**************
+      Header
+**************/
+.group-space {
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    font-size: 35pt;
+    display: flex;
+    justify-content: center;
+
+    padding-top: 40px;
+}
+
+
+/**************
+      Background
+**************/
+.background{
+    background-image: url("../img/background1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    height: 100%;
+}
+
+
+/**************
+      Subinterfaces
+**************/
+
+.all-subinterfaces {
+  margin-top: 50px;
+    padding: 30px 0px;
+    background-color: grey;
+    opacity: 0.5;
+}
+
+
+.subinterface-content{
+    background-color: white;
+    border: 1px solid grey;
+    border-radius: 10px;
+
+    padding: 15px;
+    margin-bottom: 30px;
+
+    text-align: center;
+}
