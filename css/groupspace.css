@@ -6,7 +6,7 @@ body, html{
 /**************
       Header
 **************/
-.group-space {
+.title{
     font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
     font-size: 35pt;
     display: flex;
@@ -17,15 +17,44 @@ body, html{
 
 
 /**************
-      Background
+      Body
 **************/
-.background{
+
+.page-container{
+    display: flex;
+    flex-direction: row;
+
+    height: 100%;
+}
+
+.squad-chat-img{
+    width: 350px;
+    height: 100%;
+}
+
+.menu{
+    position: absolute;
+    top: 20px;
+    right: 370px;
+}
+
+.menu-icon{
+   color: red;
+}
+
+.main-panel{
     background-image: url("../img/background1.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 
     height: 100%;
+}
+
+.row{ /** just the panel itself, not including title */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 
 
@@ -36,7 +65,7 @@ body, html{
 
 
 .all-subinterfaces {
-  margin-top: 50px;
+    margin-top: 50px;
     padding: 30px 0px;
     background-color: grey;
     opacity: 0.5;
