@@ -1,0 +1,38 @@
+/***************
+    Heading
+***************/
+.your-squads {
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    font-size: 35pt;
+    display: flex;
+    justify-content: center;
+    
+}
+
+/***************
+    main
+***************/
+a, a:hover {
+    color: black;
+    text-decoration: unset;
+}
+
+.all-squads {
+    padding: 70pt;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.squad-photo {
+    display: flex;
+    justify-content: center;
+}
+
+
+.squad-name{
+    font-family: "Georgia", serif;
+    font-size: 20pt;
+    display: flex;
+    justify-content: center;
+}
