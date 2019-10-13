@@ -12,6 +12,7 @@ body, html{
     display: flex;
     justify-content: center;
 
+    color: white;
     padding-top: 40px;
 }
 
@@ -38,12 +39,22 @@ body, html{
     right: 370px;
 }
 
+.exit{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
 .menu-icon{
-   color: red;
+   color: white;
+}
+
+.exit-icon{
+   color: white;
 }
 
 .main-panel{
-    background-image: url("../img/background1.jpg");
+    background-image: url("../img/background2.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -67,14 +78,12 @@ body, html{
 .all-subinterfaces {
     margin-top: 50px;
     padding: 30px 0px;
-    background-color: grey;
-    opacity: 0.5;
+    opacity: 0.6;
 }
 
 
 .subinterface-content{
-    background-color: white;
-    border: 1px solid grey;
+    background-color: #f8f8ff;
     border-radius: 10px;
 
     padding: 15px;
