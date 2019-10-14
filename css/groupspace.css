@@ -1,6 +1,11 @@
 
 body, html{
     height: 100%;
+    margin: 0;
+}
+
+html{
+    overflow: hidden;
 }
 
 /**************
@@ -12,7 +17,6 @@ body, html{
     display: flex;
     justify-content: center;
 
-    color: white;
     padding-top: 40px;
 }
 
@@ -57,7 +61,7 @@ body, html{
 }
 
 .main-panel{
-    background-image: url("../img/background2.jpg");
+    background-image: url("../img/background1.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
